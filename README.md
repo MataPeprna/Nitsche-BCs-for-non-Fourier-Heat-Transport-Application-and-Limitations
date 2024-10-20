@@ -7,6 +7,6 @@ Fourier law states (roughly speaking) that heat travels in the direction, where 
 
 One of the recently developed models of phonon hydrodynamics is particularly similar to the famous Navier-Stokes equations. This projects implements full-slip* (and also Navier-slip) boundary conditions to the model by the so-called Nitsche method and studies, how to choose a stabilisation parameter to optimise performance.
 
-This project contains a .pdf summary of the results which serve as recommendations on how to choose the parameter and working codes that give the results from the .pdf. In order to make the codes work, one needs to download legacy FEniCS 2019.1.0, see [this site](https://fenicsproject.org/download/archive/) for download.
+This project contains a .pdf summary of the results which serve as recommendations on how to choose the parameter and working codes that give the results from the .pdf (fononiflow.py is the main code to run). In order to make the codes work, one needs to download legacy FEniCS 2019.1.0, see [this site](https://fenicsproject.org/download/archive/) for download.
 
 *Full-slip says that there is no flow through the boundary, but the boundary is perfectly slippery and does not slow down the flowin the tangential direction (along itself).
